@@ -1,0 +1,68 @@
+import 'home_model.dart';
+
+final List<HomeModel> mockStocks = [
+  const HomeModel(
+    symbol: 'AAPL',
+    name: 'Apple Inc.',
+    price: '\$189.84',
+    change: '+2.41 (1.29%)',
+    isPositive: true,
+    logoPath: 'assets/icons/home.png',
+  ),
+  const HomeModel(
+    symbol: 'GOOGL',
+    name: 'Alphabet Inc.',
+    price: '\$141.80',
+    change: '-0.92 (-0.64%)',
+    isPositive: false,
+    logoPath: 'assets/icons/home.png',
+  ),
+  const HomeModel(
+    symbol: 'MSFT',
+    name: 'Microsoft Corp.',
+    price: '\$378.91',
+    change: '+4.15 (1.11%)',
+    isPositive: true,
+    logoPath: 'assets/icons/home.png',
+  ),
+  const HomeModel(
+    symbol: 'TSLA',
+    name: 'Tesla, Inc.',
+    price: '\$248.42',
+    change: '-3.60 (-1.43%)',
+    isPositive: false,
+    logoPath: 'assets/icons/home.png',
+  ),
+  const HomeModel(
+    symbol: 'AMZN',
+    name: 'Amazon.com, Inc.',
+    price: '\$151.94',
+    change: '+1.20 (0.80%)',
+    isPositive: true,
+    logoPath: 'assets/icons/home.png',
+  ),
+  const HomeModel(
+    symbol: 'META',
+    name: 'Meta Platforms, Inc.',
+    price: '\$484.03',
+    change: '+6.72 (1.41%)',
+    isPositive: true,
+    logoPath: 'assets/icons/home.png',
+  ),
+  const HomeModel(
+    symbol: 'NFLX',
+    name: 'Netflix, Inc.',
+    price: '\$610.55',
+    change: '-4.28 (-0.70%)',
+    isPositive: false,
+    logoPath: 'assets/icons/home.png',
+  ),
+  const HomeModel(
+    symbol: 'NVDA',
+    name: 'NVIDIA Corp.',
+    price: '\$875.28',
+    change: '+18.44 (2.15%)',
+    isPositive: true,
+    logoPath: 'assets/icons/home.png',
+  ),
+];
